@@ -18,6 +18,14 @@ The scipt will first determine which disk shares contain data from the share (in
 
 Any unraid app/plugin that enables the rsync command within the unraid shell is the only thing required to get this script running.
 
+Once that's installed, just fill in the script parameters, then add execute permissions to the script:
+```bash
+chmod +x ./unraid-fast-copy.sh
+```
+then just simply call the scipt to execute the copy:
+```bash
+./unraid-fast-copy.sh
+```
 
 ## Results
 
