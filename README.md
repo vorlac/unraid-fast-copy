@@ -43,3 +43,4 @@ IO wait times reported by netdata are now down to just ~10-15% compared to the 5
    - Get it to properly handle terminal resizing
    - Monitor active processes by polling for their activity to further improve what type of progress can be printed
    - Update the main loop so it exits when all child processes are finished copying the data for each disk that contains share data.
+ - Add dry-run mode that just generates a report of what the script plans to do without copying/modifying anything.
