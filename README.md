@@ -5,7 +5,7 @@ An optimized parallel copy utility for copying data from an unraid share to a mo
 
 ## Overview
 
-This script is stil a work in progress, so at the moment all parameters must be manually defined at the top of the script.
+This script is still a work in progress, so at the moment all parameters must be manually defined at the top of the script.
 
 Each parameter has a descriptive comment above it that outlines how the primary values should be set based on:
 1. The unraid share you want to copy, optionally including a subdirectory path relative to the root of the share if you want to scope the copy to just a portion of the share.
